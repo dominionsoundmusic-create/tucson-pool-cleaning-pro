@@ -1,0 +1,11 @@
+# redirects
+
+# Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
+/algae-treatment/*  /algae-treatment/  301
+/pool-chemical-balancing/*  /pool-chemical-balancing/  301
+/pool-cleaning-near-me/*  /pool-cleaning-near-me/  301
+/pool-cleaning-service/*  /pool-cleaning-service/  301
+/pool-equipment-repair/*  /pool-equipment-repair/  301
+/pool-maintenance/*  /pool-maintenance/  301
+/swimming-pool-service/*  /swimming-pool-service/  301
+/weekly-pool-cleaning/*  /weekly-pool-cleaning/  301
