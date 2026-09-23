@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pool Services — Tucson Pool Cleaning Pro</title>
+<meta name="description" content="Pool cleaning, repair, pump service, tile cleaning, and maintenance across Tucson, Oro Valley, Marana, and Sahuarita. See all services and get a free quote.">
+<link rel="canonical" href="https://tucsonpoolcleaningpro.com/services/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --brand:#7a3418;--accent:#e6a14c;--dark:#1a1108;--light:#faf6f1;
+  --text:#3a2a1a;--muted:#7a6a5a;--sand:#f0e8dd;--rule:#d6c8b6;
+  --serif:'DM Serif Display',Georgia,serif;
+  --sans:'DM Sans','Segoe UI',system-ui,sans-serif;
+}
+html{font-size:18px;scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);background:var(--light);line-height:1.7}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto;display:block}
+
+.site-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,17,8,.94);backdrop-filter:blur(6px);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:60px}
+.site-nav .logo{color:#fff;font-family:var(--serif);font-size:1.1rem;white-space:nowrap}
+.site-nav .logo span{color:var(--accent)}
+.site-nav .logo a{color:inherit;text-decoration:none}
+.nav-links{display:flex;gap:1.5rem;align-items:center}
+.nav-links a{color:rgba(255,255,255,.7);font-size:.85rem;font-weight:500;text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--accent);text-decoration:none}
+.nav-links .phone-link{color:var(--accent);font-weight:600;font-size:.9rem;margin-left:.5rem}
+.nav-links .phone-link:hover{color:#fff}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+
+@media(max-width:768px){
+  .nav-links{display:none;position:absolute;top:60px;left:0;right:0;background:rgba(26,17,8,.98);flex-direction:column;padding:1rem 1.5rem;gap:.75rem}
+  .nav-links.open{display:flex}
+  .menu-toggle{display:block}
+}
+
+.page-header{background:var(--dark);padding:5.5rem 1.5rem 2.5rem;text-align:center}
+.page-header h1{font-family:var(--serif);color:#fff;font-size:clamp(1.8rem,4vw,2.5rem)}
+.page-header h1 em{font-style:normal;color:var(--accent)}
+.page-header p{color:rgba(255,255,255,.7);max-width:540px;margin:.75rem auto 0;font-size:.95rem}
+
+.services-wrap{max-width:800px;margin:0 auto;padding:3rem 1.5rem}
+
+.service-card{display:grid;grid-template-columns:1fr 2fr;gap:1.5rem;align-items:start;background:var(--sand);border:1px solid var(--rule);border-radius:8px;padding:1.75rem;margin-bottom:1.25rem;transition:border-color .2s}
+.service-card:hover{border-color:var(--accent)}
+.service-card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+.service-card-content h2{font-family:var(--serif);font-size:1.25rem;color:var(--brand);margin-bottom:.5rem;line-height:1.25}
+.service-card-content p{font-size:.9rem;color:var(--text);margin-bottom:.75rem;line-height:1.6}
+.service-card-content .card-link{font-size:.85rem;font-weight:600;color:var(--brand)}
+.service-card-content .card-link:hover{color:var(--accent)}
+
+.cta-band{background:var(--brand);padding:3rem 1.5rem;text-align:center;margin-top:2rem}
+.cta-band h2{font-family:var(--serif);color:#fff;font-size:1.5rem;margin-bottom:.75rem}
+.cta-band p{color:rgba(255,255,255,.85);margin-bottom:1.25rem;max-width:540px;margin-left:auto;margin-right:auto}
+.cta-band a{display:inline-block;background:var(--accent);color:var(--dark);font-weight:600;padding:.75rem 2rem;border-radius:4px}
+.cta-band a:hover{background:#d4952e;text-decoration:none}
+
+.site-footer{background:var(--dark);color:rgba(255,255,255,.6);padding:2rem 1.5rem;text-align:center;font-size:.85rem}
+.site-footer a{color:var(--accent)}
+
+@media(max-width:640px){
+  .service-card{grid-template-columns:1fr}
+  .service-card img{height:200px}
+  .services-wrap{padding:2rem 1.25rem}
+}
+</style>
+</head>
+<body>
+
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="logo"><a href="/">Tucson <span>Pool Cleaning Pro</span></a></div>
+  <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/services/" class="active">Services</a>
+    <a href="/about/">About</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/contact/">Contact</a>
+    <a class="phone-link" href="tel:+15203721083">(520) 372-1083</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <h1>Our <em>Services</em></h1>
+  <p>Everything your pool needs — from weekly cleaning to emergency repair. Chemicals included, flat monthly pricing, same technician every week.</p>
+</header>
+
+<div class="services-wrap">
+
+  <a class="service-card" href="/pool-cleaning-maintenance/" style="text-decoration:none">
+    <img src="/images/tucson-cleaning-hero.jpg" alt="Pool technician cleaning a pool in Tucson" width="300" height="160" loading="lazy">
+    <div class="service-card-content">
+      <h2>Weekly Cleaning &amp; Maintenance</h2>
+      <p>Skimming, brushing, vacuuming, chemistry testing and balancing, filter checks, and equipment inspection — every week, with all chemicals included. One flat price every month.</p>
+      <span class="card-link">Learn more →</span>
+    </div>
+  </a>
+
+  <a class="service-card" href="/swimming-pool-repair/" style="text-decoration:none">
+    <img src="/images/tucson-repair-hero.jpg" alt="Pool repair technician working on equipment in Tucson" width="300" height="160" loading="lazy">
+    <div class="service-card-content">
+      <h2>Pool Repair</h2>
+      <p>Pumps, filters, heaters, salt cells, lights, and plumbing leaks — diagnosed on site and fixed the same visit when parts allow. Honest pricing, no upsell.</p>
+      <span class="card-link">Learn more →</span>
+    </div>
+  </a>
+
+  <a class="service-card" href="/pool-pump-repair/" style="text-decoration:none">
+    <img src="/images/tucson-pump-hero.jpg" alt="Pool pump repair in Tucson" width="300" height="160" loading="lazy">
+    <div class="service-card-content">
+      <h2>Pump Repair &amp; Replacement</h2>
+      <p>Motor swaps, seal leaks, impeller clogs, and variable-speed upgrades. We diagnose the noise, give you a price, and fix it — often the same visit.</p>
+      <span class="card-link">Learn more →</span>
+    </div>
+  </a>
+
+  <a class="service-card" href="/pool-tile-cleaning/" style="text-decoration:none">
+    <img src="/images/tucson-tile-hero.jpg" alt="Clean pool tile after calcium removal in Tucson" width="300" height="160" loading="lazy">
+    <div class="service-card-content">
+      <h2>Tile Cleaning</h2>
+      <p>Calcium scale removal by media blasting — not glass bead. No drain, no damage to the tile glaze, swimmable the same day. Every two to three years in Tucson's hard water.</p>
+      <span class="card-link">Learn more →</span>
+    </div>
+  </a>
+
+  <a class="service-card" href="/oro-valley-pool-service/" style="text-decoration:none">
+    <img src="/images/oro-valley-hero.jpg" alt="Pool service in Oro Valley with mountain views" width="300" height="160" loading="lazy">
+    <div class="service-card-content">
+      <h2>Oro Valley Pool Service</h2>
+      <p>Weekly service for Rancho Vistoso, Stone Canyon, Canada Hills, Sun City, and every OV neighborhood. Same flat pricing, same included chemicals.</p>
+      <span class="card-link">Learn more →</span>
+    </div>
+  </a>
+
+</div>
+
+<section class="cta-band">
+  <h2>Not Sure What You Need?</h2>
+  <p>Call and describe your pool. We will tell you what service fits and give you a price — no obligation.</p>
+  <a href="tel:+15203721083">Call (520) 372-1083</a>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Tucson Pool Cleaning Pro. Serving Tucson, Oro Valley, Marana, Sahuarita and Vail, AZ.</p>
+  <p><a href="/privacy-policy.html">Privacy Policy</a> · <a href="/terms.html">Terms</a></p>
+</footer>
+
+</body>
+</html>
