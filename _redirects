@@ -1,11 +1,21 @@
 # redirects
 
 # Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
-/algae-treatment/*  /algae-treatment/  301
-/pool-chemical-balancing/*  /pool-chemical-balancing/  301
-/pool-cleaning-near-me/*  /pool-cleaning-near-me/  301
-/pool-cleaning-service/*  /pool-cleaning-service/  301
-/pool-equipment-repair/*  /pool-equipment-repair/  301
-/pool-maintenance/*  /pool-maintenance/  301
-/swimming-pool-service/*  /swimming-pool-service/  301
-/weekly-pool-cleaning/*  /weekly-pool-cleaning/  301
+
+# Sep 24 2026 - thin stub pages retired; each goes to the real page on the same topic.
+/algae-treatment/*  /pool-cleaning-maintenance/  301
+/algae-treatment/  /pool-cleaning-maintenance/  301
+/pool-chemical-balancing/*  /pool-cleaning-maintenance/  301
+/pool-chemical-balancing/  /pool-cleaning-maintenance/  301
+/pool-cleaning-near-me/*  /services/  301
+/pool-cleaning-near-me/  /services/  301
+/pool-cleaning-service/*  /pool-cleaning-maintenance/  301
+/pool-cleaning-service/  /pool-cleaning-maintenance/  301
+/pool-equipment-repair/*  /swimming-pool-repair/  301
+/pool-equipment-repair/  /swimming-pool-repair/  301
+/pool-maintenance/*  /pool-cleaning-maintenance/  301
+/pool-maintenance/  /pool-cleaning-maintenance/  301
+/swimming-pool-service/*  /services/  301
+/swimming-pool-service/  /services/  301
+/weekly-pool-cleaning/*  /pool-cleaning-maintenance/  301
+/weekly-pool-cleaning/  /pool-cleaning-maintenance/  301
