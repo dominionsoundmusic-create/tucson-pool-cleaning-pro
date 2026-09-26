@@ -19,3 +19,27 @@
 /swimming-pool-service/  /services/  301
 /weekly-pool-cleaning/*  /pool-cleaning-maintenance/  301
 /weekly-pool-cleaning/  /pool-cleaning-maintenance/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/how-desert-heat-and-dust-affect-pool-chemistry-1785707710790.html  /pool-cleaning-maintenance/  301
+/blog/how-desert-heat-and-dust-affect-pool-chemistry-1785707710790  /pool-cleaning-maintenance/  301
+/blog/signs-your-pool-pump-is-about-to-fail-1786106855752.html  /pool-pump-repair/  301
+/blog/signs-your-pool-pump-is-about-to-fail-1786106855752  /pool-pump-repair/  301
+/blog/how-much-does-weekly-pool-service-cost-in-tucson-1786970663994.html  /services/  301
+/blog/how-much-does-weekly-pool-service-cost-in-tucson-1786970663994  /services/  301
+/blog/pool-chemical-balancing-explained-simply-1786278929729.html  /pool-cleaning-maintenance/  301
+/blog/pool-chemical-balancing-explained-simply-1786278929729  /pool-cleaning-maintenance/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786024116957.html  /pool-cleaning-maintenance/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786024116957  /pool-cleaning-maintenance/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1785851663115.html  /pool-cleaning-maintenance/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1785851663115  /pool-cleaning-maintenance/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1785937790708.html  /pool-cleaning-maintenance/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1785937790708  /pool-cleaning-maintenance/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1786366282124.html  /pool-cleaning-maintenance/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1786366282124  /pool-cleaning-maintenance/  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786192403888.html  /pool-cleaning-maintenance/  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786192403888  /pool-cleaning-maintenance/  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786452620892.html  /pool-pump-repair/  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786452620892  /pool-pump-repair/  301
+/blog/*  /  301
+/blog  /  301
