@@ -234,21 +234,21 @@
    "url": "/vail-pool-service",
    "name": "Vail",
    "city": "Vail",
-   "summary": ""
+   "summary": "Unincorporated Pima County community below the Rincon Mountains, 13,604 people in 2020, served mostly by Vail Water Company's CAP supply."
   },
   {
    "slug": "sahuarita",
    "url": "/sahuarita-pool-service",
    "name": "Sahuarita",
    "city": "Sahuarita",
-   "summary": ""
+   "summary": "Town incorporated in 1994 along the Santa Cruz River, home to Rancho Sahuarita and Quail Creek, with seven groundwater providers."
   },
   {
    "slug": "green-valley",
    "url": "/green-valley-pool-service",
    "name": "Green Valley",
    "city": "Green Valley",
-   "summary": ""
+   "summary": "Unincorporated retirement community on I-19 below the Santa Rita Mountains, where about 80% of residents are 65 or older."
   }
  ]
 }
