@@ -33,7 +33,7 @@ function pages(dir, out = []) {
     let errs = [];
     page.on("pageerror", (e) => errs.push(String(e)));
     page.on("console", (m) => { if (m.type() === "error") errs.push(m.text()); });
-    const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("mesa-pool") || u === "/pool-heater-repair/") : urls;
+    const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("oro-valley-pool") || u === "/pool-light-repair/") : urls;
     for (const u of list) {
       errs = [];
       await page.goto(base + u, { waitUntil: "load" });
@@ -70,7 +70,7 @@ function pages(dir, out = []) {
       if (width >= 1024 && r.heroH !== null && r.heroH > 720) problems.push(`${width}px ${u}: hero ${r.heroH}px tall`);
       if (width >= 1024 && r.callBottom !== null && r.callBottom > r.vh) problems.push(`${width}px ${u}: call button below the fold (${r.callBottom} > ${r.vh})`);
       if (width >= 1440 && r.h1Left !== null && r.h1Left > Math.min(140, width * 0.055) + 2) problems.push(`${width}px ${u}: hero headline not on the left rail (left ${r.h1Left})`);
-      if (shots && (u === "/" || u === "/mesa-pool-service.html" || u === "/pool-heater-repair/")) {
+      if (shots && (u === "/" || u === "/oro-valley-pool-service.html" || u === "/pool-light-repair/")) {
         fs.mkdirSync(shots, { recursive: true });
         await page.screenshot({ path: path.join(shots, `${width}${u.replace(/[\/.]/g, "_")}.png`), fullPage: width <= 1440 });
       }
