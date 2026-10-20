@@ -1,0 +1,47 @@
+# redirects (copied to dist/_redirects by build.py)
+
+# Sep 24 2026 - thin stub pages retired; each goes to the real page on the same topic.
+# Oct 20 2026 rebuild: targets moved to the closer new pages where one now exists (docs/decisions.md).
+/algae-treatment/*  /green-pool-cleanup/  301
+/algae-treatment/  /green-pool-cleanup/  301
+/pool-chemical-balancing/*  /pool-cleaning-maintenance/  301
+/pool-chemical-balancing/  /pool-cleaning-maintenance/  301
+/pool-cleaning-near-me/*  /services/  301
+/pool-cleaning-near-me/  /services/  301
+/pool-cleaning-service/*  /pool-cleaning-maintenance/  301
+/pool-cleaning-service/  /pool-cleaning-maintenance/  301
+/pool-equipment-repair/*  /swimming-pool-repair/  301
+/pool-equipment-repair/  /swimming-pool-repair/  301
+/pool-maintenance/*  /pool-cleaning-maintenance/  301
+/pool-maintenance/  /pool-cleaning-maintenance/  301
+/swimming-pool-service/*  /pool-service/  301
+/swimming-pool-service/  /pool-service/  301
+/weekly-pool-cleaning/*  /pool-cleaning-maintenance/  301
+/weekly-pool-cleaning/  /pool-cleaning-maintenance/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/how-desert-heat-and-dust-affect-pool-chemistry-1785707710790.html  /tucson-pool-maintenance-schedule/  301
+/blog/how-desert-heat-and-dust-affect-pool-chemistry-1785707710790  /tucson-pool-maintenance-schedule/  301
+/blog/signs-your-pool-pump-is-about-to-fail-1786106855752.html  /pool-pump-not-working/  301
+/blog/signs-your-pool-pump-is-about-to-fail-1786106855752  /pool-pump-not-working/  301
+/blog/how-much-does-weekly-pool-service-cost-in-tucson-1786970663994.html  /pool-service-cost/  301
+/blog/how-much-does-weekly-pool-service-cost-in-tucson-1786970663994  /pool-service-cost/  301
+/blog/pool-chemical-balancing-explained-simply-1786278929729.html  /pool-cleaning-maintenance/  301
+/blog/pool-chemical-balancing-explained-simply-1786278929729  /pool-cleaning-maintenance/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786024116957.html  /my-pool-is-green/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786024116957  /my-pool-is-green/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1785851663115.html  /tucson-pool-maintenance-schedule/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1785851663115  /tucson-pool-maintenance-schedule/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1785937790708.html  /my-pool-is-green/  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1785937790708  /my-pool-is-green/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1786366282124.html  /tucson-pool-maintenance-schedule/  301
+/blog/how-often-should-a-pool-be-cleaned-in-tucson-1786366282124  /tucson-pool-maintenance-schedule/  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786192403888.html  /pool-cleaning-maintenance/  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786192403888  /pool-cleaning-maintenance/  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786452620892.html  /swimming-pool-repair/  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786452620892  /swimming-pool-repair/  301
+/blog/*  /  301
+/blog  /  301
+
+# Oct 20 2026 - the old flat page URL with .html, and folder-style variants of flat pages.
+/oro-valley-pool-service/  /oro-valley-pool-service  301

@@ -137,9 +137,8 @@ faqs:
     <li>Does the work need an electrician, or a permit, and who arranges that?</li>
     <li>Which Arizona ROC license do you hold, and what is the number?</li>
   </ul>
-  <div class="note">
-    <p><strong>Check the license before pump work starts.</strong> In Arizona, the Registrar of Contractors (ROC) licenses contractors, and the classification for servicing and making minor repairs on home pools is R-6, Residential Swimming Pool Service and Repair. Write down the company's ROC number and enter it in the <a href="https://roc.az.gov/contractor-search">ROC contractor lookup</a>, which lists whether the license is active, what classification it carries and recent complaints. Apart from workers' compensation, the ROC does not require licensees to carry insurance, so ask for proof of liability coverage separately. This phone line does not vet companies, so the lookup is worth the two minutes.</p>
-  </div>
+  {{ m.license_check() }}
+  <p>The lookup does not show insurance. Apart from workers' compensation, the ROC does not require licensees to carry insurance, so ask the company for proof of liability coverage separately.</p>
   <p>The ROC's R-6 scope stops at electrical work beyond the first disconnect. If the job involves a new circuit, a new disconnect or rewiring, expect the pool company to bring in an electrical contractor. Gas work for a heater also sits outside R-6.</p>
   {{ m.call_box('Pump humming, dripping or tripping the breaker? Call any hour, describe the noise or the leak, and say which part of the Tucson area the pool is in.') }}
 </section>
