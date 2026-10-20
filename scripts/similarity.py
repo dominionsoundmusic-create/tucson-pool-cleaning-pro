@@ -126,6 +126,8 @@ def main():
                 if j > args.limit:
                     other_fail.append(f"above {args.limit:.0%} against Phoenix {du}: {u} = {j:.1%}")
         worst.sort(reverse=True)
+        if not worst:
+            worst = [(0.0, 0, "(no page matched --only)", "-", [])]
         print(f"Against Phoenix ({len(dpages)} pages): max Jaccard {worst[0][0]:.1%} ({worst[0][2]} vs {worst[0][3]}); "
               f"pages sharing an 8-word run: {len({d.split(': ')[1] for d in other_fail}) if other_fail else 0}")
     for f in fails + other_fail:
