@@ -3,21 +3,9 @@
 The rebuilt site is finished on the `build` branch. Nothing is live yet. Here is everything left, in order.
 For each step, reply in the chat with your answer and Claude does the rest.
 
-## 1. Answer two questions (reply in chat)
+## 1. Two questions: answered
 
-**A. Are calls to the phone line recorded?**
-The privacy and contact pages now say: "The automated assistant may record or log what you say on the
-call, for example your name and number, your part of town and the trouble you describe, so that it can be
-handed to the pool business that takes your call."
-
-Reply with one of:
-- "Calls are recorded": the pages will say they are recorded.
-- "Calls are not recorded, only the details are passed on": the pages will say only your name, number,
-  area and pool problem are noted and passed to the company.
-- "Keep it as is": the "may" wording stays.
-
-**B. The terms say they are governed by Arizona law.**
-Reply "OK" to keep it, or name the state whose law should apply instead.
+Calls: the "may record or log" wording stays as is. Terms: governed by Texas law. Both are done.
 
 ## 2. Look at the site before it goes live (reply "open the pull request")
 

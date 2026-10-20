@@ -44,7 +44,5 @@ every source, allow those domains in the environment's network settings and re-r
 - No page says or implies the line does pool work, checks licenses, or that any company is licensed,
   insured or rated; no company is named.
 
-**Open items for Maurice (business decisions, not checkable facts).**
-1. Privacy and contact pages say calls to the automated assistant "may be recorded or logged". Confirm
-   whether calls are recorded and adjust the wording.
-2. The terms say Arizona law governs them. Approve or change.
+**Business decisions settled by the owner (Oct 20 2026).** The "may be recorded or logged" call wording
+stays as is, and the terms are governed by Texas law.

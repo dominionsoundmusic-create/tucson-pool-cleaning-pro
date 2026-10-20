@@ -184,6 +184,8 @@ def main():
 
         # hard copy rules (visible text + title + meta)
         visible = text + " " + p.title + " " + p.meta.get("description", "")
+        if url == "/terms.html":  # the owner chose Texas law for the terms (docs/decisions.md 25)
+            visible = visible.replace("These terms are governed by the laws of the State of Texas.", " ")
         for pat in BANNED:
             for mt in re.finditer(pat, visible, re.I):
                 ctx = visible[max(0, mt.start() - 50): mt.end() + 50]

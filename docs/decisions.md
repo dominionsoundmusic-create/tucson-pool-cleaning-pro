@@ -84,5 +84,7 @@ decision below was made from INTAKE.md, CLAUDE.md, the keyword data and the live
     Phoenix page; similarity.py now drops the license note as template text.
 23. **Browser QA ignores blocked third-party requests** (Google Analytics, Translate), which the sandbox
     cannot reach; every other console error still counts.
-24. **Items left for Maurice:** confirm call recording (privacy and contact say "may"), approve the
-    Arizona-law clause in the terms, generate the 34 photos in docs/image-list.md.
+24. **Owner answers (Oct 20 2026):** keep the "may record or log" call wording as is; the terms are
+    governed by Texas law. Still to do: generate the 34 photos in docs/image-list.md.
+25. **Texas law clause.** The owner chose Texas law for the terms. That single sentence on /terms.html is
+    exempted in check.py and grep_check.py; any other mention of Texas anywhere still fails.

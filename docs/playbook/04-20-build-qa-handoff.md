@@ -81,7 +81,7 @@ cookie, 404, scroll to top after navigation). Analytics and Translate scripts co
   (docs/qa.md). Independent fact-check: done (docs/fact-check.md).
 - Not verified: live Netlify behavior (404 status, redirects), Google Analytics and Translate on the real
   domain, the phone line's routing.
-- Launch blockers: none in the code. Before launch Maurice should confirm whether calls are recorded (the
-  privacy and contact pages say "may be recorded or logged") and approve the Arizona-law clause in the terms.
+- Launch blockers: none. The owner kept the "may be recorded or logged" call wording and chose Texas law
+  for the terms (Oct 20 2026).
 - Readiness: ready for Maurice's review on the `build` branch. Not deployed and not merged; going live is
   his decision (merge `build` to main, Netlify publishes dist/).

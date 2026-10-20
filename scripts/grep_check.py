@@ -26,6 +26,8 @@ def main():
             vis = re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", raw)
             vis = re.sub(r"(?s)<!--.*?-->", " ", vis)
             vis = html.unescape(re.sub(r"<[^>]+>", " ", vis)) + " " + " ".join(re.findall(r'(?:content|alt|title)="([^"]*)"', raw))
+            if f.name == "terms.html":  # the owner chose Texas law for the terms (docs/decisions.md 25)
+                vis = vis.replace("These terms are governed by the laws of the State of Texas.", " ")
             if p.lower() in vis.lower():
                 files.append("/" + f.relative_to(dist).as_posix())
         total += len(files)
