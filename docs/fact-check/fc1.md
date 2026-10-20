@@ -118,7 +118,7 @@ Totals: 8 checked, 8 confirmed, 0 corrected, 0 softened, 0 removed.
 | ES toggle uses Google Translate | site code (src/static/js/site.js) | confirmed | |
 | Sources list (17 URLs) | domains and topics | confirmed | One source added |
 
-Totals: 19 checked, 13 confirmed, 1 corrected, 3 softened... plus HomeAdvisor kept on research: 19 checked, 15 confirmed, 1 corrected, 3 softened, 0 removed.
+Totals: 19 checked, 15 confirmed, 1 corrected, 3 softened, 0 removed.
 
 ## /contact/
 
