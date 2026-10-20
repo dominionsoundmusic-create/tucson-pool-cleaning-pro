@@ -15,7 +15,7 @@ Opening the pull request does not publish anything.
 
 ## 3. Photos (optional, can wait until after launch)
 
-34 new photos would make the pages better. Every page already shows an existing photo until its new one
+Done: all 34 photos were added on Oct 20 2026. The steps below are kept for any photo you want to replace later. Every page shows an existing photo until a new one
 arrives, so nothing looks broken without them.
 
 1. Open `docs/image-list.md` (attached). Each entry has a file name, a size and an Artistly prompt.

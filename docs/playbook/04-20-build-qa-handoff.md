@@ -40,7 +40,7 @@ footer with an accessible label and opens in a new tab; the other social slots s
 
 ## Prompt 15: media
 Every page: a full-width hero (eager, fetchpriority high, preloaded, WebP srcset 480 to 1920) and at least
-two lazy in-body figures with alt, width and height; no photo twice on one page. 34 new photos are planned
+two lazy in-body figures with alt, width and height; no photo twice on one page. 34 new photos were planned and all have since been added
 (docs/image-list.md: file name, size, page, alt, Artistly prompt); until each exists the page shows an
 existing photo, never a broken image. No video was supplied, so the home hero is a photo.
 
@@ -60,8 +60,7 @@ robots.txt points to the sitemap, 404 is noindex.
 ## Prompt 17: remnant sweep
 No previous business names, domains, phone numbers, analytics ids, lorem ipsum, TODOs, fake reviews, empty
 hrefs, duplicate ids, duplicate metadata or duplicate JSON-LD (check.py, grep). A netlify.toml header rule
-left from another build was removed. Intentional placeholders: the 34 planned photos (each shows an
-existing photo). Missing client inputs: email (UNKNOWN, not shown), other social URLs, a hero video.
+left from another build was removed. Intentional placeholders: none (the 34 planned photos were added). Missing client inputs: email (UNKNOWN, not shown), other social URLs, a hero video.
 
 ## Prompt 18: responsive and accessibility
 scripts/responsive_check.js, Chromium: every page at 1440, 1024, 768 and 390 px, samples at 1920 and 2560:
