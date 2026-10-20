@@ -32,7 +32,8 @@ function pages(dir, out = []) {
     const page = await ctx.newPage();
     let errs = [];
     page.on("pageerror", (e) => errs.push(String(e)));
-    page.on("console", (m) => { if (m.type() === "error") errs.push(m.text()); });
+    // Third-party hosts (Google Analytics, Translate) cannot be reached from the sandbox; only local errors count.
+    page.on("console", (m) => { if (m.type() === "error" && !/ERR_TUNNEL_CONNECTION_FAILED|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION/.test(m.text())) errs.push(m.text()); });
     const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("oro-valley-pool") || u === "/pool-light-repair/") : urls;
     for (const u of list) {
       errs = [];
