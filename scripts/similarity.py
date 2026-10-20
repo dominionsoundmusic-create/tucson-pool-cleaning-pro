@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DROP = [r'<ol class="how-strip">.*?</ol>', r'<div class="note">\s*<p><strong>(?:About this line|Verify the license|How this line works|Check the license).*?</div>',
+DROP = [r'<ol class="how-strip">.*?</ol>', r'<div class="note">\s*<p><strong>(?:About this line|Verify the license|How this line works|Check the license|Look up the contractor license).*?</div>',
         r'<aside class="sources".*?</aside>', r'<ul class="pill-list">.*?</ul>', r'<div class="cards">.*?</div>\s*</div>\s*</article>\s*</div>',
         r'<div class="note note--orange">.*?</div>', r'<script.*?</script>', r'<style.*?</style>', r'<!--.*?-->',
         r'<figure.*?</figure>', r'<table.*?</table>']

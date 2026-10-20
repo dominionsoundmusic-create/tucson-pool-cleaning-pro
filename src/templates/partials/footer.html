@@ -5,7 +5,7 @@
     <div class="site-footer__brand">
       <a href="/" class="logo"><img src="{{ b.logo }}" alt="{{ b.name }}" width="{{ b.logo_width }}" height="{{ b.logo_height }}" loading="lazy"></a>
       <p>{{ b.short_disclosure }} {{ b.referral_disclosure }}</p>
-      <p><a class="site-footer__phone" href="tel:{{ b.phone_tel }}">{{ b.phone_display }}</a><br><span class="small">Answered 24/7 by an automated assistant.</span></p>
+      <p><a class="site-footer__phone" href="tel:{{ b.phone_tel }}">{{ b.phone_display }}</a><br><span class="small">An automated assistant takes calls 24/7.</span></p>
       {% set active = [] %}{% for key, label in socials %}{% if site.social[key] %}{% set _ = active.append((key, label)) %}{% endif %}{% endfor %}
       {% if active %}
       <ul class="social">
