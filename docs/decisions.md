@@ -73,3 +73,16 @@ decision below was made from INTAKE.md, CLAUDE.md, the keyword data and the live
     publish (Oro Valley Water Utility 2023 report).
 18. **Old claims dropped:** "chemicals included", flat monthly price, same-visit repairs, "300-plus days of
     sun", and every unsourced statement on the live site. Facts were re-verified (docs/research/) before use.
+
+## Writing, fact-check and QA
+19. **Pages were written by nine separate writer agents** from docs/WRITING-GUIDE.md and the research files,
+    and checked by five different fact-check agents that wrote nothing (docs/fact-check.md).
+20. **Every remaining price is a national published range** with the publisher named and "real quotes
+    vary". Tucson-specific HomeAdvisor figures were dropped because they could not be found again.
+21. **Tile cleaning states no price**: no cost guide publishes a pool tile or calcium removal price.
+22. **Shared template text was reworded twice** so that no Tucson page shares an 8-word run with any
+    Phoenix page; similarity.py now drops the license note as template text.
+23. **Browser QA ignores blocked third-party requests** (Google Analytics, Translate), which the sandbox
+    cannot reach; every other console error still counts.
+24. **Items left for Maurice:** confirm call recording (privacy and contact say "may"), approve the
+    Arizona-law clause in the terms, generate the 34 photos in docs/image-list.md.

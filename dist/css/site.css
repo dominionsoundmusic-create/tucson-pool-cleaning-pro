@@ -483,3 +483,6 @@ body > .skiptranslate { display: none !important; }
 @media (min-width: 1101px) {
   #sub-areas { columns: 1; min-width: 260px; left: 0; right: auto; }
 }
+
+/* a white text section that runs straight into a color band keeps its bottom breathing room */
+.prose + .band { margin-top: clamp(40px, 6vw, 72px); }

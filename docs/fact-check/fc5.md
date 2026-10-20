@@ -38,7 +38,7 @@ showed area pairs max 0.8%, max against Phoenix 1.3%, 0 pages sharing an 8-word 
 | Monsoon June 15 to Sept 30; dust storms most often form north and west of Tucson | research (NWS) | confirmed | |
 | Southwest Gas 877-860-6020; CDC chemical storage | research | confirmed | |
 
-Totals: 21 claims checked; 15 confirmed, 2 corrected, 2 softened, 1 removed (plus 1 corrected FAQ counted above). Final count: confirmed 15, corrected 3, softened 2, removed 1.
+Totals: 21 claims checked; 15 confirmed, 3 corrected, 2 softened, 1 removed.
 
 ## /catalina-foothills-pool-service
 
@@ -60,7 +60,7 @@ Totals: 21 claims checked; 15 confirmed, 2 corrected, 2 softened, 1 removed (plu
 | Monsoon dates; Pima County mosquito line 520-724-7908; SW Gas 877-860-6020 | research | confirmed | |
 | R-6 covers service and repair; building or replastering under construction licenses | research/licensing-barriers.md | confirmed | |
 
-Totals: 15 claims checked; 9 confirmed, 2 corrected, 2 softened, 1 removed (plus the panel softening). Final: confirmed 10, corrected 2, softened 2, removed 1.
+Totals: 15 claims checked; 10 confirmed, 2 corrected, 2 softened, 1 removed.
 
 ## /vail-pool-service
 
