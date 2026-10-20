@@ -14,8 +14,3 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "/free-ac-guide/files/*"
-  [headers.values]
-    Content-Type = "application/pdf"
