@@ -1,0 +1,254 @@
+{
+ "business": {
+  "name": "Tucson Pool Cleaning Pro",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "Tucson Pool Cleaning Pro is a d/b/a of Dominion Digital Group.",
+  "category": "Pool service referral line for the Tucson metro area",
+  "origin": "https://tucsonpoolcleaningpro.com",
+  "phone_display": "(520) 372-1083",
+  "phone_tel": "+15203721083",
+  "email": "",
+  "address_public": false,
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 211,
+  "logo_height": 64,
+  "theme_color": "#7a3418",
+  "description": "A free phone line for pool service, pool cleaning and pool repair across Tucson and the Tucson metro. An automated assistant answers 24/7 and transfers callers to an independent, locally owned pool service company.",
+  "short_disclosure": "Tucson Pool Cleaning Pro is a free phone line, not a pool company. It answers your call and connects you with an independent local pool service company, which inspects, quotes and does the work, and which you pay directly.",
+  "referral_disclosure": "Companies may pay a referral fee. The line never charges you.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "license_lookup_url": "https://roc.az.gov/contractor-search"
+ },
+ "cta": {
+  "primary_label": "Call {phone}",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "G-XL16NRYYJS",
+  "gtm": ""
+ },
+ "social": {
+  "facebook": "https://www.facebook.com/tucsonpoolcleaningpro",
+  "instagram": "",
+  "google_business": "",
+  "tiktok": "",
+  "youtube": ""
+ },
+ "nav": [
+  {
+   "label": "Services",
+   "menu": "services",
+   "href": "/services/"
+  },
+  {
+   "label": "Service Areas",
+   "menu": "areas",
+   "href": "/service-areas/"
+  },
+  {
+   "label": "Guides",
+   "menu": "guides"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  }
+ ],
+ "footer_links": [
+  {
+   "label": "All Services",
+   "href": "/services/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy.html"
+  },
+  {
+   "label": "Terms of Use",
+   "href": "/terms.html"
+  }
+ ],
+ "services": [
+  {
+   "slug": "pool-service",
+   "url": "/pool-service/",
+   "name": "Pool Service in Tucson",
+   "short": "Pool Service",
+   "summary": "What a regular pool service arrangement covers, how often a company visits, and the questions to settle before you agree to a plan.",
+   "card_image": "tucson-cleaning-hero.jpg",
+   "card_alt": "A man running a pool pole across a clear rectangular pool beside a tan block wall and desert trees"
+  },
+  {
+   "slug": "pool-cleaning-maintenance",
+   "url": "/pool-cleaning-maintenance/",
+   "name": "Pool Cleaning and Weekly Maintenance",
+   "short": "Pool Cleaning and Maintenance",
+   "summary": "The hands-on routine: skimming, brushing, baskets, vacuuming and water testing, and why sun, dust and hard water make it a weekly job here.",
+   "card_image": "pool/brush-wide.jpg",
+   "card_alt": "A hand pushing a blue pool brush along the floor of a clear pool"
+  },
+  {
+   "slug": "swimming-pool-repair",
+   "url": "/swimming-pool-repair/",
+   "name": "Swimming Pool Repair",
+   "short": "Pool Repair",
+   "summary": "Filters, heaters, salt cells, valves and plumbing: how a repair visit starts with a diagnosis, and which repair work calls for a licensed contractor.",
+   "card_image": "tucson-repair-hero.jpg",
+   "card_alt": "A man kneeling beside a pool pump on a pool deck with desert mountains and a saguaro behind"
+  },
+  {
+   "slug": "pool-pump-repair",
+   "url": "/pool-pump-repair/",
+   "name": "Pool Pump Repair",
+   "short": "Pool Pump Repair",
+   "summary": "Pumps that hum, leak, grind or lose prime, which parts can be replaced, and what the federal variable-speed rules mean for a new motor.",
+   "card_image": "tucson-pump-vs.jpg",
+   "card_alt": "A modern pool pump with a digital control on a concrete pad, with gravel, an agave and a stucco wall behind"
+  },
+  {
+   "slug": "pool-tile-cleaning",
+   "url": "/pool-tile-cleaning/",
+   "name": "Pool Tile Cleaning",
+   "short": "Pool Tile Cleaning",
+   "summary": "The white crust at the waterline: why hard water leaves it, how removal methods compare, and what can scratch tile.",
+   "card_image": "tucson-tile-scale.jpg",
+   "card_alt": "Heavy white calcium scale along a row of blue pool tile at the waterline"
+  },
+  {
+   "slug": "green-pool-cleanup",
+   "url": "/green-pool-cleanup/",
+   "name": "Green Pool Cleanup",
+   "short": "Green Pool Cleanup",
+   "summary": "Bringing back a green or neglected pool: what the cleanup involves, how long it can take, and why a dark pool is a safety and mosquito problem.",
+   "card_image": "pool/green-wide.jpg",
+   "card_alt": "Backyard pool with green water and leaves on the surface beside a block wall"
+  },
+  {
+   "slug": "pool-leak-repair",
+   "url": "/pool-leak-repair/",
+   "name": "Pool Leak and Line Repair",
+   "short": "Pool Leak Repair",
+   "summary": "Evaporation or a leak? The bucket test, where leaks hide in shells, fittings and lines, and how leak detection works.",
+   "card_image": "pool/hero-2-wide.jpg",
+   "card_alt": "Free-form pool with a stone edge and a covered patio"
+  },
+  {
+   "slug": "pool-light-repair",
+   "url": "/pool-light-repair/",
+   "name": "Pool Light Repair",
+   "short": "Pool Light Repair",
+   "summary": "A pool light that flickers, trips the GFCI or fogs with water: why it is electrical work for a professional and what a repair involves.",
+   "card_image": "pool/dusk-wide.jpg",
+   "card_alt": "Backyard pool lit at dusk with string lights over a stone patio"
+  }
+ ],
+ "guides": [
+  {
+   "slug": "pool-service-cost",
+   "url": "/pool-service-cost/",
+   "name": "How Much Does Pool Service Cost in Tucson?",
+   "short": "Pool Service and Cleaning Cost",
+   "summary": "Published price ranges for pool service and pool cleaning, what pushes a Tucson quote up or down, and how to compare quotes."
+  },
+  {
+   "slug": "my-pool-is-green",
+   "url": "/my-pool-is-green/",
+   "name": "My Pool Is Green: What Do I Do?",
+   "short": "My Pool Is Green",
+   "summary": "Safe first steps when the water turns green, why it happens fast in desert heat, and when to call a pool company."
+  },
+  {
+   "slug": "pool-pump-not-working",
+   "url": "/pool-pump-not-working/",
+   "name": "Pool Pump Stopped Working? A Troubleshooting Guide",
+   "short": "Pool Pump Stopped Working",
+   "summary": "The safe checks a homeowner can make when a pump goes quiet or stops moving water, and the signs that mean call a professional."
+  },
+  {
+   "slug": "pool-maintenance-schedule",
+   "url": "/tucson-pool-maintenance-schedule/",
+   "name": "Tucson Pool Maintenance Schedule",
+   "short": "Pool Maintenance Schedule",
+   "summary": "What to do daily, weekly, monthly and by season in Tucson, from summer heat to the monsoon to the cool months."
+  },
+  {
+   "slug": "draining-a-pool-tucson",
+   "url": "/draining-a-pool-in-tucson/",
+   "name": "Draining or Recycling Pool Water in Tucson",
+   "short": "Draining a Pool in Tucson",
+   "summary": "Why hard water builds up, when a drain or water recycling makes sense, and the local rules on where pool water may go."
+  }
+ ],
+ "areas": [
+  {
+   "slug": "oro-valley",
+   "url": "/oro-valley-pool-service",
+   "name": "Oro Valley",
+   "city": "Oro Valley",
+   "summary": "Incorporated in 1974 below Pusch Ridge, about 47,000 residents, with its own water utility, a 60 inch pool barrier rule and draining guidelines."
+  },
+  {
+   "slug": "catalina-foothills",
+   "url": "/catalina-foothills-pool-service",
+   "name": "Catalina Foothills",
+   "city": "Catalina Foothills",
+   "summary": "Unincorporated Pima County community of about 52,400 below the Santa Catalinas, where flood risk rose after the 2020 Bighorn Fire."
+  },
+  {
+   "slug": "vail",
+   "url": "/vail-pool-service",
+   "name": "Vail",
+   "city": "Vail",
+   "summary": "Unincorporated Pima County community below the Rincon Mountains, 13,604 people in 2020, where Vail Water Company delivers Central Arizona Project water."
+  },
+  {
+   "slug": "sahuarita",
+   "url": "/sahuarita-pool-service",
+   "name": "Sahuarita",
+   "city": "Sahuarita",
+   "summary": "Town incorporated in 1994 along the Santa Cruz River, home to Rancho Sahuarita and Quail Creek, with seven groundwater providers."
+  },
+  {
+   "slug": "green-valley",
+   "url": "/green-valley-pool-service",
+   "name": "Green Valley",
+   "city": "Green Valley",
+   "summary": "Unincorporated retirement community on I-19 below the Santa Rita Mountains, where about 80% of residents are 65 or older."
+  }
+ ]
+}

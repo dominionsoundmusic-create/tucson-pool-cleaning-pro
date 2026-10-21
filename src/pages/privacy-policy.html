@@ -1,0 +1,61 @@
+---
+type: legal
+url: "/privacy-policy.html"
+title: "Privacy Policy | Tucson Pool Cleaning Pro"
+description: "How the Tucson Pool Cleaning Pro phone line and website handle call details, analytics, cookies and Google Translate, and who receives the information."
+h1: "Privacy Policy"
+crumb: "Privacy Policy"
+lead: "Effective October 20, 2026. This policy describes how the Tucson Pool Cleaning Pro phone line and website are designed to handle information."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <h2>Who runs this site and the phone line</h2>
+  <p>Tucson Pool Cleaning Pro is a d/b/a of Dominion Digital Group. Dominion Digital Group operates the website tucsonpoolcleaningpro.com and the phone number shown on it, {{ site.business.phone_display }}. In this policy, "the line" means Tucson Pool Cleaning Pro, and "pool company" refers to a separate pool service business a caller gets connected with.</p>
+  <p>The line is a free referral service. It is not a pool company and does not visit homes, perform pool work or take payments from callers.</p>
+
+  <h2>Information handled on phone calls</h2>
+  <p>Calls to the line are answered by an automated assistant. To connect you, the assistant asks what is going on with your pool. The call may be recorded, and the assistant may log details you give, which can include:</p>
+  <ul>
+    <li>your name;</li>
+    <li>the number you are calling from, or a different callback number you provide;</li>
+    <li>the town, neighborhood or general area where the pool is;</li>
+    <li>what is wrong with the pool, or what kind of help you want;</li>
+    <li>the date and time of the call.</li>
+  </ul>
+  <p>Only share what you are comfortable sharing. You do not need to give a street address, payment details or other sensitive information to the line, and you should not.</p>
+
+  <h2>Who receives call details</h2>
+  <p>The purpose of the line is to put you in touch with a pool company, so the details from your call are shared with the independent pool company your call is transferred to. That company hears a short summary before it picks up. If it cannot answer, it is sent your name, callback number and area along with a short account of the pool trouble, and the company can then return the call.</p>
+  <p>Once the pool company has your details, its own practices apply to how it uses and keeps them. Ask the company directly if you have questions about its handling of your information. The line may also rely on telephone, call handling and website hosting providers to run the service, and those providers may process call or visit data as part of that work.</p>
+
+  <h2>Information collected when you visit the website</h2>
+  <p>This site uses Google Analytics 4 to understand how visitors use it, such as which pages are viewed, how visitors arrive, and general device and browser details. The site also records an event in Google Analytics when someone taps a phone number link, so the line can see how many visits lead to a call. Google Analytics uses cookies, including one named _ga that tells one browser apart from another. Google describes what it collects through partner sites on its page about how Google uses information from sites or apps that use its services.</p>
+  <p>The servers that deliver the website may also keep standard technical logs, such as IP address, browser type and the time of a request, as most web hosts do.</p>
+  <p>You can block or delete cookies in your browser settings, and Google offers a browser add-on that stops Google Analytics from collecting data about your visits. The site works without analytics cookies.</p>
+
+  <h2>Spanish translation through Google Translate</h2>
+  <p>The EN and ES buttons at the top of each page use Google Translate. When you choose ES, the site sets a small cookie named googtrans so the next page also opens in Spanish, and your browser loads Google's translation service, which receives the page content in order to translate it. If you never choose ES, the site does not load Google Translate. Choosing EN removes the cookie and switches the site back to English.</p>
+
+  <h2>No forms and no email</h2>
+  <p>The website has no contact form, no account sign up and no email list. It does not ask you to type in personal information.</p>
+
+  <h2>Children</h2>
+  <p>The line and this website are intended for adults looking after a home pool. They are not directed at children, and children should not call the line or submit information.</p>
+
+  <h2>Links to other websites</h2>
+  <p>Pages on this site link to outside sources, such as government agencies and utilities. Those sites have their own privacy practices, which this policy does not cover.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>This policy may be updated when the line or the website changes. The effective date at the top of the page shows when the current version took effect.</p>
+
+  <h2>Questions</h2>
+  <p>Questions about this policy can be raised by phone at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. The line is phone only and has no public email address. See also the <a href="/terms.html">terms of use</a>.</p>
+  {{ m.sources([
+    {'label': 'Google: How Google uses information from sites or apps that use our services', 'url': 'https://policies.google.com/technologies/partner-sites'},
+    {'label': 'Google: How Google uses cookies', 'url': 'https://policies.google.com/technologies/cookies'},
+    {'label': 'Google Analytics Help: Safeguarding your data', 'url': 'https://support.google.com/analytics/answer/6004245'},
+    {'label': 'Google Analytics Opt-out Browser Add-on', 'url': 'https://tools.google.com/dlpage/gaoptout'}
+  ]) }}
+</section>
+{% endblock %}

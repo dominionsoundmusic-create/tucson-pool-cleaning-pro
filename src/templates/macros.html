@@ -1,0 +1,90 @@
+{# Shared page components. Every page body can call these as m.<name>(...). #}
+
+{% macro service_cards(slugs=None, more='Read more') -%}
+<div class="cards">
+{% for s in site.services if slugs is none or s.slug in slugs %}
+  <article class="card">
+    {% if s.card_image and image_exists(s.card_image) %}{% set sz = img_size(s.card_image) %}{{ picture(s.card_image, s.card_alt, sz[0], sz[1], "(max-width: 700px) 100vw, 400px", ' loading="lazy" decoding="async"') }}{% endif %}
+    <div class="card__body">
+      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+      <p>{{ s.summary }}</p>
+      <p class="card__more" aria-hidden="true">{{ more }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro guide_cards(slugs=None) -%}
+<div class="cards">
+{% for g in site.guides if slugs is none or g.slug in slugs %}
+  <article class="card card--text">
+    <div class="card__body">
+      <h3><a href="{{ g.url }}">{{ g.name }}</a></h3>
+      <p>{{ g.summary }}</p>
+      <p class="card__more" aria-hidden="true">Open the guide</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro area_pills(exclude=None) -%}
+<ul class="pill-list">
+  <li><a href="/service-areas/">All Tucson-area service areas</a></li>
+  <li><a href="/">Tucson</a></li>
+{% for a in site.areas if a.slug != exclude %}
+  <li><a href="{{ a.url }}">{{ a.name }}</a></li>
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro related(slugs, title='Related services') -%}
+<h2>{{ title }}</h2>
+<ul class="pill-list">
+{% for slug in slugs %}
+  {% if slug.startswith('guide:') %}{% set g = guide(slug[6:]) %}<li><a href="{{ g.url }}">{{ g.name }}</a></li>
+  {% elif slug.startswith('area:') %}{% set a = area(slug[5:]) %}<li><a href="{{ a.url }}">{{ a.name }}</a></li>
+  {% else %}{% set s = svc(slug) %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endif %}
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro call_box(text='Not sure what is wrong with the pool? Ring the line and say what you are seeing. The local pool company on the other end comes out, looks for itself and gives you its own price before it starts anything.') -%}
+<div class="note note--orange">
+  <p>{{ text }}</p>
+  <p><a class="btn btn--navy btn--sm" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+</div>
+{%- endmacro %}
+
+{% macro how_it_works_short() -%}
+<ol class="how-strip">
+  <li><strong>Dial the line</strong>{{ site.business.phone_display }} is picked up by an automated assistant around the clock, holidays included.</li>
+  <li><strong>Say what the pool is doing</strong>Green water, a pump that is silent or grinding, a light that will not come on, white crust on the tile, plus the part of the Tucson area you live in.</li>
+  <li><strong>Get transferred</strong>Your call is handed to a pool service company in the Tucson area that is independent and locally owned. It gets a quick summary of the problem before it says hello.</li>
+  <li><strong>Work it out with them</strong>That company inspects, quotes, does the job and bills you itself. If nobody picks up, your name, number, area and pool problem go to the company so it can phone you back.</li>
+</ol>
+{%- endmacro %}
+
+{% macro disclosure() -%}
+<div class="note">
+  <p><strong>About this line:</strong> {{ site.business.short_disclosure }} {{ site.business.referral_disclosure }} <a href="/how-it-works/">Read how the line works</a>.</p>
+</div>
+{%- endmacro %}
+
+{% macro license_check() -%}
+<div class="note">
+  <p><strong>Look up the contractor license.</strong> Contractor licensing in Arizona is handled by the state Registrar of Contractors, known as the ROC. A residential R-6 license, Swimming Pool Service and Repair, is the one meant for servicing home pools and making minor repairs; building a pool or replacing a whole plaster or pebble interior falls under construction licenses such as B-5. Whether a cleaning-only route needs any license is not spelled out by the ROC, so it is fair to ask a company what it holds. Write down its ROC number and enter it in the <a href="{{ site.business.license_lookup_url }}" target="_blank" rel="noopener">state's license lookup<span class="sr"> (new tab)</span></a>, which lists the license status, classification and recent complaints. Tucson Pool Cleaning Pro does not run this check on anyone.</p>
+</div>
+{%- endmacro %}
+
+{% macro sources(items) -%}
+<aside class="sources" aria-labelledby="sources-title">
+  <h2 id="sources-title">Sources</h2>
+  <ul>
+  {% for s in items %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>
+  {% endfor %}
+  </ul>
+</aside>
+{%- endmacro %}
