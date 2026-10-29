@@ -29,6 +29,10 @@ decision below was made from INTAKE.md, CLAUDE.md, the keyword data and the live
    equipment page was built). Added /oro-valley-pool-service/ to the flat page. No real page shadows a rule.
 5. **Phone only.** The old Netlify `pool-inquiry` form is retired; /contact/ is a phone page. The old form had
    no action or thank-you URL, so no redirect was needed. check.py fails any `<form>`.
+   **Changed Oct 29 2026 (owner's request):** /contact/ now also has one Netlify form, `tucson-pool-contact`
+   (name, phone, email, city, need, message), posting to the noindex /contact/thanks/ page. The
+   netlify/functions/submission-created.mjs function texts the owner each verified submission. check.py
+   allows that single form on /contact/ and fails a form anywhere else. The phone call stays the main CTA.
 6. **Phone number in one place.** (520) 372-1083 lives only in src/data/site.json; the call label is built
    from it and pages use `{{ site.business.phone_display }}`.
 7. **Kept from main:** GA4 G-XL16NRYYJS with the phone-tap event, and the Facebook URL

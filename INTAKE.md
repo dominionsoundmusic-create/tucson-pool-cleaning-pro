@@ -65,6 +65,9 @@ FOOTER OF EVERY PAGE: "© 2026 Dominion Digital Group. All rights reserved." and
 LANGUAGE: EN / ES toggle in the header.
 
 5. CALLS TO ACTION
+UPDATE Oct 29 2026: the owner now wants a short request form on /contact/ (Netlify form
+  `tucson-pool-contact`, thank-you page /contact/thanks/). The call stays the main CTA. The note below
+  is the original Oct 20 instruction, kept for the record.
 MAIN CTA: Call the phone number. THE SITE IS PHONE ONLY. Retire the old contact form
   (`pool-inquiry`): /contact/ becomes a phone page. If an old form thank-you URL exists, 301 it to
   /contact/.

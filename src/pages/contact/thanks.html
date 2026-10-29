@@ -1,0 +1,24 @@
+---
+type: page
+title: "Request Received | Tucson Pool Cleaning Pro"
+description: "Your request reached the Tucson pool line. An independent local pool service company should call you back. For anything urgent, call the free line any hour."
+h1: "Thanks, your request is in"
+crumb: "Request received"
+noindex: true
+cta: false
+hero:
+  image: pool/hero-3.jpg
+  alt: "A long rectangular pool with white lounge chairs, palms, desert trees, boulders and distant mountains"
+  lead: "Your details are on their way to an independent pool service company in the Tucson area, and it should call you back."
+  secondary_label: "Back to the home page"
+  secondary_href: "/"
+---
+{% block content %}
+<section class="prose">
+  <h2>What happens next</h2>
+  <p>A local pool company that is independent of this line will look at your request and call the number you gave. Keep your phone close, since the call back may come from a number you do not recognize. Anything about the visit, the price and the work is between you and that company.</p>
+  <p>If the pool needs help right away, do not wait for the call back. Phone the free line at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> any hour and the automated assistant can put you through. For a gas smell, sparks or anyone hurt, call 911 first.</p>
+  <p><a class="btn btn--orange btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+  <p>While you wait, the <a href="/how-it-works/">how it works</a> page explains the handoff, and the <a href="/services/">services page</a> covers what a local company can help with.</p>
+</section>
+{% endblock %}

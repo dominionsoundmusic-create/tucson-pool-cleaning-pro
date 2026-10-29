@@ -2,10 +2,10 @@
 type: legal
 url: "/privacy-policy.html"
 title: "Privacy Policy | Tucson Pool Cleaning Pro"
-description: "How the Tucson Pool Cleaning Pro phone line and website handle call details, analytics, cookies and Google Translate, and who receives the information."
+description: "How the Tucson Pool Cleaning Pro phone line and website handle call details, the request form, analytics, cookies and Google Translate, and who receives them."
 h1: "Privacy Policy"
 crumb: "Privacy Policy"
-lead: "Effective October 20, 2026. This policy describes how the Tucson Pool Cleaning Pro phone line and website are designed to handle information."
+lead: "Effective October 29, 2026. This policy describes how the Tucson Pool Cleaning Pro phone line and website are designed to handle information."
 cta: false
 ---
 {% block content %}
@@ -37,8 +37,18 @@ cta: false
   <h2>Spanish translation through Google Translate</h2>
   <p>The EN and ES buttons at the top of each page use Google Translate. When you choose ES, the site sets a small cookie named googtrans so the next page also opens in Spanish, and your browser loads Google's translation service, which receives the page content in order to translate it. If you never choose ES, the site does not load Google Translate. Choosing EN removes the cookie and switches the site back to English.</p>
 
-  <h2>No forms and no email</h2>
-  <p>The website has no contact form, no account sign up and no email list. It does not ask you to type in personal information.</p>
+  <h2>Information you send through the request form</h2>
+  <p>The contact page has a short request form, for people who would rather type than call. If you send it, the form collects:</p>
+  <ul>
+    <li>your name;</li>
+    <li>your phone number;</li>
+    <li>your email address, if you choose to give one;</li>
+    <li>your city or ZIP code;</li>
+    <li>what you need, picked from a short list;</li>
+    <li>any note you add.</li>
+  </ul>
+  <p>The form is stored by the company that hosts this website (Netlify), and its contents are sent to the site owner by text message and email. The owner uses them only to pass your request to an independent local pool company, which then calls you back. Your details are not sold. The website has no account sign up and no email list, and the form is the only place it asks you to type in personal information.</p>
+  <p>To ask for a form request to be deleted, call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> and say so. Once a pool company has your details, ask that company directly about the copy it holds.</p>
 
   <h2>Children</h2>
   <p>The line and this website are intended for adults looking after a home pool. They are not directed at children, and children should not call the line or submit information.</p>
@@ -50,7 +60,7 @@ cta: false
   <p>This policy may be updated when the line or the website changes. The effective date at the top of the page shows when the current version took effect.</p>
 
   <h2>Questions</h2>
-  <p>Questions about this policy can be raised by phone at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. The line is phone only and has no public email address. See also the <a href="/terms.html">terms of use</a>.</p>
+  <p>Questions about this policy can be raised by phone at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. The line has no public email address, so please call. See also the <a href="/terms.html">terms of use</a>.</p>
   {{ m.sources([
     {'label': 'Google: How Google uses information from sites or apps that use our services', 'url': 'https://policies.google.com/technologies/partner-sites'},
     {'label': 'Google: How Google uses cookies', 'url': 'https://policies.google.com/technologies/cookies'},

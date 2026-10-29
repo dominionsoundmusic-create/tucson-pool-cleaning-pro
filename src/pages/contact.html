@@ -1,8 +1,8 @@
 ---
 type: contact
 title: "Contact Tucson Pool Cleaning Pro | Call the Free Pool Line"
-description: "Tucson Pool Cleaning Pro is phone only. Call any hour and an automated assistant connects you with an independent local pool service company in the Tucson area."
-h1: "Call the Tucson Pool Line"
+description: "Call Tucson Pool Cleaning Pro any hour, or send a short request form, and an independent local pool service company in the Tucson area calls you back."
+h1: "Call or Send a Request to the Tucson Pool Line"
 crumb: "Contact"
 hero:
   image: contact-hero.jpg
@@ -10,13 +10,13 @@ hero:
   desc: "Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a smartphone lying face down on a small patio table on the right beside a clear backyard pool in Tucson, gravel landscaping with prickly pear, agave and a palo verde tree, tan stucco wall, the Tucson Mountains under a bright early evening sky, realistic photo, no text, no logos, no house numbers, no recognizable faces, no readable screen"
   fallback: tucson-cleaning-hero.jpg
   fallback_alt: "A man running a pool pole across a clear rectangular pool beside a tan block wall and desert trees"
-  lead: "There is no form and no inbox here. One phone number, answered by an automated assistant at any hour, puts you through to an independent pool service company in the Tucson area."
-  secondary_label: "What to say on the call"
-  secondary_href: "#what-to-say"
+  lead: "Call any time and an automated assistant puts you through to an independent pool service company in the Tucson area. Or send the short form below, and a local company calls you back."
+  secondary_label: "Send a request"
+  secondary_href: "#request-form"
 cta_title: "Ready when you are, day or night"
 faqs:
-  - q: "Can I email Tucson Pool Cleaning Pro or fill out a form?"
-    a: "<p>No. The line works by phone only, so there is no email address or contact form. A call gets your problem in front of a local pool company quickly, or gets your details to it for a call back.</p>"
+  - q: "Can I fill out a form instead of calling?"
+    a: "<p>Yes. Send the short request form on this page with your name, phone number, city or ZIP code and what you need, and an independent local pool company calls you back. There is no public email address. For anything urgent, calling is faster.</p>"
   - q: "What time can I call the pool line?"
     a: "<p>Whenever you need to. The automated assistant picks up around the clock, every day of the year. Visit times are up to the pool business itself.</p>"
   - q: "What if I miss the pool company's call back?"
@@ -38,10 +38,60 @@ faqs:
         <li><strong>Price of the call</strong>Nothing. The line never bills callers</li>
         <li><strong>Who picks up</strong>An automated assistant, then an independent, locally owned pool service company</li>
         <li><strong>Where</strong>Tucson and the surrounding Tucson metro in Pima County</li>
-        <li><strong>Email, form or office</strong>None. This line is phone only</li>
+        <li><strong>Request form</strong>Send the short form below and a local company calls you back. There is no email address or office</li>
       </ul>
     </div>
     {{ img('pool/dusk-wide.jpg', 'A backyard pool lit at dusk under string lights, with a stone patio and cacti', 1200, 500) }}
+  </div>
+</section>
+
+<section class="prose" id="request-form">
+  <div class="quote-form-wrap">
+    <div class="quote-form__intro">
+      <h2>Or send a short request</h2>
+      <p>Rather not call right now? Fill in the form and your request goes to an independent local pool service company, which calls you back. The call is still the quickest way in at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>, any hour.</p>
+    </div>
+    <form class="quote-form" name="tucson-pool-contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="tucson-pool-contact">
+      <p hidden><label>Leave blank <input name="bot-field"></label></p>
+      <div class="quote-form__grid">
+        <p class="quote-form__field">
+          <label for="qf-name">Your name</label>
+          <input id="qf-name" type="text" name="name" autocomplete="name" required>
+        </p>
+        <p class="quote-form__field">
+          <label for="qf-phone">Phone</label>
+          <input id="qf-phone" type="tel" name="phone" autocomplete="tel" required>
+        </p>
+        <p class="quote-form__field">
+          <label for="qf-email">Email <span class="quote-form__opt">(optional)</span></label>
+          <input id="qf-email" type="email" name="email" autocomplete="email">
+        </p>
+        <p class="quote-form__field">
+          <label for="qf-city">City or ZIP code</label>
+          <input id="qf-city" type="text" name="city" autocomplete="postal-code" required>
+        </p>
+        <p class="quote-form__field quote-form__field--full">
+          <label for="qf-need">What do you need?</label>
+          <select id="qf-need" name="need" required>
+            <option value="">Choose one</option>
+            <option>Weekly pool cleaning</option>
+            <option>Green or cloudy pool cleanup</option>
+            <option>Pump, filter or heater repair</option>
+            <option>Leak or other equipment problem</option>
+            <option>Chemicals or water balance</option>
+            <option>Tile cleaning</option>
+            <option>Just a question</option>
+          </select>
+        </p>
+        <p class="quote-form__field quote-form__field--full">
+          <label for="qf-message">Anything else the company should know? <span class="quote-form__opt">(optional)</span></label>
+          <textarea id="qf-message" name="message" rows="4"></textarea>
+        </p>
+      </div>
+      <p><button class="btn btn--orange btn--big" type="submit">Send my request</button></p>
+      <p class="quote-form__note">Your details go only to the independent local pool company that will call you back. They are not sold. See the <a href="/privacy-policy.html">privacy policy</a>.</p>
+    </form>
   </div>
 </section>
 
@@ -89,7 +139,7 @@ faqs:
 <section class="band band--tint">
   <div class="wide">
     <h2>What happens to the details you give</h2>
-    <p>The automated assistant may record or log what you say on the call, for example your name and number, your part of town and the trouble you describe, so that it can be handed to the pool business that takes your call. The <a href="/privacy-policy.html">privacy policy</a> explains how the line and this website are designed to handle information, and the <a href="/terms.html">terms of use</a> set out what the line is and is not responsible for.</p>
+    <p>The automated assistant may record or log what you say on the call, for example your name and number, your part of town and the trouble you describe, so that it can be handed to the pool business that takes your call. If you send the request form instead, the same kind of details are passed on the same way, so a local company can call you back. The <a href="/privacy-policy.html">privacy policy</a> explains how the line and this website are designed to handle information, and the <a href="/terms.html">terms of use</a> set out what the line is and is not responsible for.</p>
     <p>The line can be paid a referral fee by the companies. That never changes the fact that the call itself is free to you.</p>
   </div>
 </section>
